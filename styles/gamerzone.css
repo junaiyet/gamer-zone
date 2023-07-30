@@ -103,6 +103,7 @@ nav a{
 }
 
 .banner-text{
+   order: 1;
     background-image: url('/images/Group\ 14.png');
     max-width: 901px;
     max-height: 700px;
@@ -185,6 +186,7 @@ nav a{
 }
 
 .banner-img{
+  order: 2;
     width: 901px;
     height: 700px;
     flex-shrink: 0; 
@@ -561,3 +563,4 @@ footer .logo{
   font-size: 16px;
   font-weight: 500;
 }
+
