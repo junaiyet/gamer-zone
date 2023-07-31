@@ -1,8 +1,14 @@
 @media only screen and (max-width: 600px) {
     .container{
-        width: 500px;
+        max-width: 540px;
         margin:  0 auto;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
       }
+      img{
+        width: 100%;
+    }
+    /* -------- */
     header {
         padding-top: 103px;
         padding-bottom: 78px;
@@ -30,13 +36,19 @@
         width: 100%;
         height: auto;
     }
+
+    .banner-list li img {
+        margin-right: 5px;
+        width: auto;
+    }
     .banner-text{
-        width: 100%;
+        max-width: 100%;
         order: 2;
     }
     .banner-img {
        order: 1;
         width: 100%;
+        height: auto;
     }
     /* ------------ */
     .gamer {
