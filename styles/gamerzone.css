@@ -412,6 +412,10 @@ nav a{
 }
 .play-game .item-left{
   margin-right: 200px;
+  order: 1;
+}
+.play-game .item-right{
+order: 2;
 }
 .play-game .item p{
   text-align: left;

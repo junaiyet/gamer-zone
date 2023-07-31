@@ -44,6 +44,26 @@
     .banner-text{
         max-width: 100%;
         order: 2;
+        padding: 70px 90px 70px 40px;
+        background-size: cover;
+    }
+    .banner-title {
+        font-size: 38px;
+    }
+    .banner-large-text {
+        font-size: 70px;
+    }
+    .pink-btn {
+        margin-right: 20px;
+        padding: 15px 30px;
+        font-size: 18px;
+   
+    }
+    .blue-btn {
+        margin-right: 20px;
+        padding: 15px 30px;
+        font-size: 18px;
+   
     }
     .banner-img {
        order: 1;
@@ -59,10 +79,18 @@
     .gamer img{
         width: 100%;
     }
+    .gamer-text-unleash {
+        font-size: 26px;
+   
+    }
     /* ----------- */
     .grid-container {
         padding: 0px 40px;
         flex-wrap: wrap;
+    }
+    .grid-container > div {
+        width: 100%;
+
     }
     /* -------- */
     .play-section {
@@ -72,15 +100,28 @@
         width: 100% !important;
     }
     .bold-title{
-        text-align: left;
+        text-align: center;
     }
     .play-section .item p {
         width: 100%;
-        text-align: left;
+        text-align: center;
+        margin-bottom: 40px;
     }
     .play-section .item .bigImg {
         position: relative;
-        width: auto;
+        width: 70%;
+    }
+    .play-section .item .smallImg {
+        left: 70px;
+        bottom: -70px;
+        width: 150px;
+    }
+    .play-section .item-right{
+            display: flex;
+    justify-content: end;
+    }
+    .play-section .item-left {
+        padding-left: 0;
     }
     /* ---------- */
     .play-game{
@@ -89,24 +130,33 @@
       .play-game .item {
           width: 100% !important;
       }
-      .bold-title{
-          text-align: left;
-      }
-      .play-game .item p {
-          width: 100%;
-          text-align: left;
-      }
+
+      .play-game .bold-title {
+        text-align: center;
+    }
+    .play-game .item p {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
       .play-game .item .bigImg {
         position: relative;
-        width: auto;
+        width: 70%;
     }
-    .play-game .item-left {
+
+    .play-game .item-left{
         margin-right: 0;
-    }
+        order: 2;
+      }
+      .play-game .item-right{
+      order: 1;
+      }
     .play-game .item .smallImg {
         position: absolute;
-        left: 0;
-        bottom: 0;
+        right:70px;
+        bottom: -70px;
+        width: 150px;
     }
     /* -------------- */
     .icons {
