@@ -19,6 +19,7 @@
     }
     nav .logo{
         margin-bottom: 62px;
+        margin: 0 auto;
     }
     nav > ul {
         flex-wrap: wrap;
@@ -35,8 +36,8 @@
         flex-wrap: wrap;
         width: 100%;
         height: auto;
+        overflow: hidden;
     }
-
     .banner-list li img {
         margin-right: 5px;
         width: auto;
@@ -71,10 +72,17 @@
         height: auto;
     }
     /* ------------ */
+    .gamer-bg {
+       
+        overflow: hidden;
+    }
     .gamer {
         width: 100%;
         height: auto;
         flex-wrap: wrap;
+    }
+    .gamer .position p{
+        text-align: center;
     }
     .gamer img{
         width: 100%;
@@ -83,6 +91,21 @@
         font-size: 26px;
    
     }
+    .description-paragraph{
+        text-align: center;
+    }
+    .violet-title {
+        max-width: 380px;
+      max-height: 380px;
+        text-align: center;
+        width: auto !important;
+        height: auto !important;
+        font-size: 28px; 
+    }
+    .bold-title {
+        font-size: 28px;
+    }
+
     /* ----------- */
     .grid-container {
         padding: 0px 40px;
@@ -92,6 +115,7 @@
         width: 100%;
 
     }
+
     /* -------- */
     .play-section {
       flex-wrap: wrap;
@@ -158,9 +182,65 @@
         bottom: -70px;
         width: 150px;
     }
+    /*  */
+    .careers {
+        flex-wrap: wrap;
+    }
+    .careers-bg{
+        background-color: rgba(255, 66, 165, 1);
+        background-image: none;
+
+    }
+    .careers h3 {
+        padding-top: 60px;
+    }
+    .careers .item {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .d-none{
+        display: block;
+    }
     /* -------------- */
     .icons {
         flex-wrap: wrap;
         
     }
+    .icons .icon {
+        gap: 10px;
+        width: 43%;
+        margin-bottom: 20px;
+    }
+    .icons .icon  img {
+        width: 30%;
+    }
+    .icons .icon  h4{
+        font-size: 14px;
+    }
+    /*  */
+    footer .logo {
+        margin-bottom: 40px;
+    }
+    footer .logo img{
+        width: 50%;
+    }
+    .flex-menu li a {
+        padding: 0px 20px;
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+    .flex-icon li {
+        padding: 0 0px;
+    }
+    .flex-icon li img{
+        width: 50%;
+    }
+    .flex-policy li a {
+        padding: 0 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    /*  */
   }
